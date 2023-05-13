@@ -4,22 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50d81f77-0bab-42b0-a916-0a23272d1b87" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/Components/Eachmember.tsx" afterDir="false" />
+    <list default="true" id="50d81f77-0bab-42b0-a916-0a23272d1b87" name="Changes" comment="install tailwindcss and configure router-dom">
       <change afterPath="$PROJECT_DIR$/client/src/Components/in-chat/Mymessage.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/src/Components/signup&amp;login/Input.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/src/layouts/Container.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/src/pages/chatapp/ChatList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/chatapp/ChatListSearch.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/src/pages/login/Login.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/src/pages/signup/Signup.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/routes/MainRoute.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,8 +119,16 @@
       <workItem from="1682850821763" duration="1073000" />
       <workItem from="1682851932902" duration="43895000" />
       <workItem from="1683815164983" duration="5572000" />
-      <workItem from="1683964582738" duration="23100000" />
+      <workItem from="1683964582738" duration="23686000" />
     </task>
+    <task id="LOCAL-00001" summary="install tailwindcss and configure router-dom">
+      <created>1683990941112</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683990941113</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +144,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="install tailwindcss and configure router-dom" />
+    <option name="LAST_COMMIT_MESSAGE" value="install tailwindcss and configure router-dom" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
