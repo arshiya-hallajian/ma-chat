@@ -79,3 +79,41 @@ module.exports.login = async (req, res) => {
   }
 };
 
+//signup router function
+module.exports.signup = async (req, res) => {
+  //hashing password
+  const hashPassword = await bcrypt.hash(req.body.password, 10);
+
+  //create a new user model
+  const user = new User({
+    username: req.body.username,
+    email: req.body.email,
+    password: hashPassword,
+  });
+
+  //check user in database existence
+  const userCheck = await User.findOne({ email: req.body.email }).exec();
+  if (userCheck)
+    res.status(400).json({
+      status: false,
+      data: undefined,
+      error: "user exists",
+    });
+
+  try {
+    //save the user model into database
+    const saveUser = await user.save();
+    res.status(200).json({
+      status: true,
+      data: saveUser,
+      error: undefined,
+    });
+  } catch (e) {
+    res.status(403).json({
+      status: false,
+      data: undefined,
+      error: e,
+    });
+  }
+};
+
