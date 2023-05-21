@@ -20,7 +20,7 @@ export const MyChats: React.FC<Iprops> = ({user,text,img}) => {
             </div>
             <div className="flex-row w-full h-2/6 self-center">
                 <h1 className="text-white text-lg">{user.username}</h1>
-                <p className="text-white text-sm text-gray-400">{text}</p>
+                <p className="text-white text-sm text-gray-400 text-ellipsis overflow-hidden">{text}</p>
             </div>
         </div>
     );
