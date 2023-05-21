@@ -10,8 +10,8 @@ const mainRoute = (): JSX.Element => {
         <Routes>
             <Route path="/" element={<Container/>}>
                 <Route path="/" element={<ChatList/>}/>
-                <Route element={<ChatList/>}/>
             </Route>
+
             <Route path="/:chatid" element={<Chat/>}/>
             <Route path="login" element={<Login/>}/>
             <Route path="signup" element={<Signup/>}/>
