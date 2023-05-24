@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import '../../index.css';
 
 interface Iprops {
@@ -7,11 +7,11 @@ interface Iprops {
     type: string
     name: string
     input: {
-        username: string
+        username?: string
         password: string
-        email?: string
+        email: string
     }
-    setInput: React.Dispatch<React.SetStateAction<{username: string, password: string,email?: string}>>
+    setInput: React.Dispatch<React.SetStateAction<{username?: string, password: string,email: string}>>
 }
 
 

@@ -6,7 +6,6 @@ const crypto = require("crypto");
 //prisma connection
 // const { PrismaClient } = require("@prisma/client");
 // const prisma = new PrismaClient();
-const Crypto = require("crypto");
 // user login
 module.exports.login = async (req, res) => {
   const email = req.body.email;
@@ -83,7 +82,9 @@ module.exports.login = async (req, res) => {
 module.exports.signup = async (req, res) => {
   //hashing password
   const hashPassword = await bcrypt.hash(req.body.password, 10);
-
+console.log(req.body.password,"1")
+console.log(req.body.username,"2")
+console.log(req.body.email,"3")
   //create a new user model
   const user = new User({
     username: req.body.username,
