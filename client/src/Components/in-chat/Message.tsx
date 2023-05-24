@@ -54,7 +54,7 @@ export const Message: React.FC = () => {
 const ChatData: chatData = [
     {
         type: "msg",
-        message: "سلام و کیر خر والا حرومزاده مادر جنده کیر تو سلام و کیر خر والا حرومزاده مادر جنده کیر تو سلام و کیر خر والا حرومزاده مادر جنده کیر تو سلام و کیر خر والا حرومزاده مادر جنده کیر تو سلام و کیر خر والا حرومزاده مادر جنده کیر تو سلام و کیر خر والا حرومزاده مادر جنده کیر تو سلام و کیر خر والا حرومزاده مادر جنده کیر تو سلام و کیر خر والا حرومزاده مادر جنده کیر تو سلام و کیر خر والا حرومزاده مادر جنده کیر تو سلام و کیر خر والا حرومزاده مادر جنده کیر تو سلام و کیر خر والا حرومزاده مادر جنده کیر تو سلام و کیر خر والا حرومزاده مادر جنده کیر تو سلام و کیر خر والا حرومزاده مادر جنده کیر تو سلام و کیر خر والا حرومزاده مادر جنده کیر تو سلام و کیر خر والا حرومزاده مادر جنده کیر تو",
+        message: "long message test long message test long message test long message test long message test long message test long message test long message test long message test long message test long message test long message test long message test long message test long message test long message test long message test long message test long message test long message test long message test long message test long message test ",
         incoming: true,
         outgoing: false,
     },
