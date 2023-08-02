@@ -15,25 +15,31 @@ const Container = () => {
             <Outlet/>
             <nav className="bg-gray-800 w-screen flex justify-between">
                 <div className="flex justify-around w-full">
+                    <Link to="/contacts">
                     <div className="flex flex-col justify-center items-center text-white">
                         <UsersIcon className="h-8 w-8"/>
                         <p>contacts</p>
                     </div>
+                    </Link>
+                    <Link to="/calls">
                     <div className="flex flex-col justify-center items-center text-white">
                         <PhoneIcon className="h-8 w-8"/>
                         <p>calls</p>
                     </div>
+                    </Link>
                 </div>
                 <div
                     className="flex flex-col justify-center items-center bg-purple-600 rounded-full px-2 py-2 -translate-y-10">
                     <PlusIcon className="h-12 w-12"/>
                 </div>
                 <div className="flex justify-around w-full">
+                    <Link to="/">
                     <div className="flex flex-col justify-center items-center text-white">
                         <ChatBubbleOvalLeftEllipsisIcon className="h-8 w-8 text-white"/>
                         <p>chat</p>
                     </div>
-                    <Link to="/s">
+                    </Link>
+                    <Link to="/setting">
                         <div className="flex flex-col justify-center items-center text-white">
                             <Cog8ToothIcon className="h-8 w-8 text-white"/>
                             <p>settings</p>
